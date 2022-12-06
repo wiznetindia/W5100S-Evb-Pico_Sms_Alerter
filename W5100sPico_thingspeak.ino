@@ -1,15 +1,13 @@
 /*
-  DHCP-based IP printer
+  W5100s-evb-pico based sms alerter
   This sketch uses the DHCP extensions to the Ethernet library
-  to get an IP address via DHCP and print the address obtained.
-  using an Arduino Wiznet Ethernet shield.
-  Circuit:
-   Ethernet shield attached to pins 10, 11, 12, 13
-  created 12 April 2011
-  modified 9 Apr 2012
-  by Tom Igoe
-  modified 02 Sept 2015
-  by Arturo Guadalupi
+  to get an IP address via DHCP and print the address obtained and follows different api's to communicate with messaging and cloud app.
+  using an W5100s_Evb_Pico
+   
+  created 13 May 2022
+  modified 6 Dec 2022
+  by Praveen khot
+  
  */
 
 #include <SPI.h>
